@@ -21,35 +21,35 @@
       <!-- DEBUT DE FORMATION -->
 
       <!-- order-[1 à 8] -->
-      <div class=" p-3 bg-red-400 w-full mb-2">
-          <div class="size-16 bg-gray-500 ">item 1</div>
-          <div class="size-16 bg-violet-500 ">item 2</div>
-          <div class="size-16 bg-blue-500 ">item 3</div>
+      <div class="flex p-3 bg-red-400 w-full mb-2">
+          <div class="size-16 bg-gray-500 order-3">item 1</div>
+          <div class="size-16 bg-violet-500 order-2">item 2</div>
+          <div class="size-16 bg-blue-500 order-1">item 3</div>
       </div>
 
       <!-- grow-[0 ou 1] -->
       <div class="flex p-3 bg-red-400 w-full mb-2">
           <div class="size-16 bg-gray-500 ">item 1</div>
-          <div class="size-16 bg-violet-500 ">item 2</div>
+          <div class="size-16 bg-violet-500 grow">item 2</div>
           <div class="size-16 bg-blue-500 ">item 3</div>
       </div>
       <!-- flex-[auto | initial | none | 1] -->
       <div class="flex p-3 bg-red-400 w-full mb-2">
-          <div class="size-16 bg-gray-500 ">item 1</div>
-          <div class="size-16 bg-violet-500 ">item 2</div>
-          <div class="size-16 bg-blue-500 ">item 3</div>
+          <div class="size-16 bg-gray-500 flex-1">item 1</div>
+          <div class="size-16 bg-violet-500 shrink">item 2</div>
+          <div class="size-16 bg-blue-500 flex-1">item 3</div>
       </div>
       <!-- basis-[0 à 96 | x/x | px] -->
-      <div class="flex p-3 bg-red-400 w-full mb-2">
-          <div class="size-16 bg-gray-500 ">item 1</div>
-          <div class="size-16 bg-violet-500 ">item 2</div>
-          <div class="size-16 bg-blue-500 ">item 3</div>
+      <div class="flex p-3 bg-red-400">
+          <div class="size-16 bg-gray-500 basis-1/2">item 1</div>
+          <div class="size-16 bg-violet-500 basis-1/4">item 2</div>
+          <div class="size-16 bg-blue-500 basis-1/4">item 3</div>
       </div>
          <!-- self-[auto | start | end | center | baseline | stretch] -->
-      <div class="flex h-64 p-3 bg-red-400  ">
-          <div class="size-16 bg-gray-500 ">item 1</div>
-          <div class="size-16 bg-violet-500 ">item 2</div>
-          <div class="size-16 bg-blue-500 ">item 3</div>
+      <div class="flex h-64 p-3 bg-red-400  w-full mb-2">
+          <div class="size-16 bg-gray-500 self-end">item 1</div>
+          <div class="size-16 bg-violet-500 self-stretch ">item 2</div>
+          <div class="size-16 bg-blue-500 self-center">item 3</div>
       </div>
 
     
