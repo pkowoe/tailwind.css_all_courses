@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind CSS</title>
   <!-- CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
 
@@ -21,7 +21,7 @@
       <!-- DEBUT DE FORMATION -->
 
       <!-- flex -->
-      <div class=" p-3 bg-red-400 w-full mb-2">
+      <div class=" p-3 bg-red-400 w-full mb-2 flex">
           <div class="size-16 bg-gray-500">item 1</div>
           <div class="size-16 bg-violet-500">item 2</div>
           <div class="size-16 bg-blue-500">item 3</div>
@@ -30,33 +30,33 @@
       <!-- gap-[valeur] -->
       <!-- gap-x-[valeur] -->
       <!-- gap-y-[valeur] -->
-      <div class=" p-3 bg-red-400 w-full mb-2">
+      <div class=" p-3 bg-red-400 w-full mb-2 flex gap-x-2">
           <div class="size-16 bg-gray-500">item 1</div>
           <div class="size-16 bg-violet-500">item 2</div>
           <div class="size-16 bg-blue-500">item 3</div>
       </div>
 
       <!-- flex-[col | row | row-reverse | col-reverse] -->
-      <div class=" p-3 bg-red-400 w-full mb-2">
+      <div class=" p-3 bg-red-400 w-full mb-2 flex flex-col gap-y-2">
           <div class="size-16 bg-gray-500">item 1</div>
           <div class="size-16 bg-violet-500">item 2</div>
           <div class="size-16 bg-blue-500">item 3</div>
       </div>
 
       <!-- justify-[normal | start | end | center | between | around | evenly | stretch] -->
-      <div class=" p-3 bg-red-400 w-full mb-2">
+      <div class=" p-3 bg-red-400 w-full mb-2 flex justify-evenly">
           <div class="size-16 bg-gray-500">item 1</div>
           <div class="size-16 bg-violet-500">item 2</div>
           <div class="size-16 bg-blue-500">item 3</div>
       </div>
       <!-- items-[start | end | center | stretch] -->
-      <div class=" h-32 p-3 bg-red-400 w-full mb-2">
+      <div class=" h-32 p-3 bg-red-400 w-full mb-2 flex items-center">
           <div class="size-16 bg-gray-500">item 1</div>
           <div class="size-16 bg-violet-500">item 2</div>
           <div class="size-16 bg-blue-500">item 3</div>
       </div>
       <!-- flex-[wrap | nowrap | wrap-reverse] -->
-      <div class=" p-3 bg-red-400 w-full mb-2">
+      <div class=" p-3 bg-red-400 w-full mb-2 flex  flex-wrap-reverse">
           <div class="size-60 bg-gray-500">item 1</div>
           <div class="size-60 bg-violet-500">item 2</div>
           <div class="size-60 bg-blue-500">item 3</div>
